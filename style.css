@@ -1,0 +1,135 @@
+body{
+   
+    background-color: white;
+    font-family: 'georgia', serif;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+h1{
+    font-size: 3rem;
+    
+}
+h3{
+    font-size: 1rem;
+}
+header > img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 3rem;
+    font-size: 3rem;
+}
+nav ul{
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    border: solid black;
+    color: white;
+    padding: 15px;
+    background-color: black;
+    font-size: 3rem;
+}
+a{
+     text-decoration: none;
+     color: white;
+     padding: 25px;
+}
+#navbar{
+    display: inline-block;
+   
+}
+section{
+    display: flex;
+   
+   
+}
+article{
+    flex: 1;
+     padding-right: 8px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--emerald);
+  color: black;
+ 
+}
+footer div{
+    flex: 1;
+    padding: 15px;
+   
+}
+input:focus:invalid {
+    color: red;
+    border: red 3px solid;
+}
+
+form > div {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+#center-text {
+    text-align: center;
+}
+/*----------------Menu----------------*/
+.menu>p {
+    font-size: 20px;
+    margin-left: 2vw;
+    margin-bottom: 50px;
+}
+
+tr:nth-child(even) {
+    background-color: #1a17171d;
+}
+
+tr:nth-child(odd) {
+    background-color: rgba(255, 255, 255, 0.415);
+}
+
+tr:nth-child(1) {
+    background-color: rgba(96, 225, 22, 0.327);
+}
+
+tr:hover {
+    background-color: rgb(52, 222, 26);
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+}
+
+th {
+    font-size: 20px;
+    padding: 20px 50px;
+}
+
+td {
+    padding: 10px 30px;
+}
+
+tr:nth-child(1) {
+    text-align: left;
+}
+
+table>tr:nth-child() {
+    text-align: center;
+}
+
+.menu-t {
+    margin: 0 auto;
+    background-image: image(pizza.jpeg)
+}
+
+
+
+
+:root {
+    --wp--preset--font-size--normal: 16px;
+    --wp--preset--font-size--huge: 42px;
+}
